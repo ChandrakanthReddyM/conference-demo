@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity(name = "sessions")
-@JsonIgnoreProperties({"HibernateLazyInitializer","handler"})
+@JsonIgnoreProperties({"hibernateLazyInitializer","handler"})
 public class Session {
     /* ID annotation tells the JPA that the ID is the primary key
      *GeneratedValue annotation specify how the primary key field gets populated on a new record insert
